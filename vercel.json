@@ -1,6 +1,6 @@
 {
   "name": "JioSaavnAPI",
-  "version": 1,
+  "version": 2,
   "builds": [
     {
       "src": "app.py",
