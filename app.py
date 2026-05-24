@@ -12,7 +12,7 @@ CORS(app)
 
 @app.route('/')
 def home():
-    return redirect("https://github.com/amjadimdad00/JioSaavn")
+    return redirect("https://github.com/amjadimdad00/JioSaavnAPI")
 
 
 @app.route('/song/')
@@ -170,4 +170,4 @@ def result():
 
 if __name__ == '__main__':
     app.debug = True
-    app.run(host='0.0.0.0', port=5100, use_reloader=True, threaded=True)
+    app.run(host='0.0.0.0', port=5000, use_reloader=True, threaded=True)
